@@ -16,14 +16,33 @@ h1{
 	background-color: green;
 }
 
-li[class="tools"] {
-	border: rgb(157, 176, 209);
-	}
+li[id="tools"] {
+border: 2px solid rgb(157, 176, 209) ;
 
-li {
-list-style-type: none;
+
+}
+
+ul{
+	list-style-type: none;
+}
+ 
+ li + .tools2  {
+	list-style-type: none;
+}	
+
+
+section img {
+	height: 300px;
+	 	width: 300px;
+	 	border-radius: 150px;
 }
 
 body > section > ul > li {
 letter-spacing: 10px;
+}
+
+section ~ p,#footer {
+	text-align: center;
+	position: relative;
+	left: 2%;
 }

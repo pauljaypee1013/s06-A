@@ -1,0 +1,29 @@
+#external {
+color: yellow;
+font-family: verdana;
+font-size: 20px;
+}
+
+h1{
+	font-size: 3rem;
+}
+
+#header2{
+	text-transform: uppercase;
+}
+
+.header3 {
+	background-color: green;
+}
+
+li[class="tools"] {
+	border: rgb(157, 176, 209);
+	}
+
+li {
+list-style-type: none;
+}
+
+body > section > ul > li {
+letter-spacing: 10px;
+}
